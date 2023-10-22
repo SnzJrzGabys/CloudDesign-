@@ -1,0 +1,12 @@
+CRITICAL - 2023-05-25 00:21:19 --> Attempt to read property "id" on array
+in APPPATH\Views\evento\modificar.php on line 15.
+ 1 APPPATH\Views\evento\modificar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\biblioteca\\code\\app\\Views\\evento\\modificar.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\biblioteca\\code\\app\\Views\\evento\\modificar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('evento/modificar', [], true)
+ 5 APPPATH\Controllers\Evento.php(75): view('evento/modificar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Evento->modificar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evento))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\biblioteca\\code\\public\\index.php')
